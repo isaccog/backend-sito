@@ -78,6 +78,39 @@ def get_blog():
 @app.get("/immagini")
 def get_immagini():
     return [
-        {"id": 1, "url": "/static/img1.jpg", "didascalia": "Un bel tramonto"},
-        {"id": 2, "url": "/static/img2.jpg", "didascalia": "Panorama montano"},
+        {
+  "url": "/static/prodotti_impossibili/imagine_5",
+  "Descrizione": "Anche nelle nostre società 'libere' milioni di telecamere ci osservano ogni giorno<br>\nCon l'AI è possibile facilmente analizzare volti e risalire a tutti i tuoi dati. <br>\nVari ricercatori hanno immaginato vestiti che confondono l'algoritmo con pattern particolari. Potete trovarne  un esempio <a href=\"https://antiai.biz\" target=\"_blank\">qui</a> o <a href=\" https://makerfairerome.eu/it/cap-able-abiti-anti-sorveglianza-contro-il-riconoscimento-facciale/\" target=\"_blank\">qui</a>.<br>  Noi abbiamo provato a immaginarne un po' meno tripping, anche se probabilmente non funzionante.",
+  "$id": "6841960a00107c2365c1",
+  "$sequence": 3,
+  "$createdAt": "2025-06-05T13:05:14.349+00:00",
+  "$updatedAt": "2025-06-05T13:19:38.429+00:00",
+  "$permissions": [],
+  "$databaseId": "6841614a001d274615f5",
+  "$tableId": "68416150002c1447e069"
+}, 
+         {
+  "url": "/static/prodotti_impossibili/imagine_4",
+  "Descrizione": "Il nostro collare per proteste ti permette di riprendere costantemente quello che sta accadendo, proteggendo te e le persone che ti circondano da comportamenti eccessivi delle forze dell'ordine. <br>\nIl collare è dotato di memoria e funzionalità di trasmissione real time delle immagini a multipli ricevitori via wifi e connessione dati. Fino a 10h di ripresa ininterrotta. <br>\nIl collare è rimovibile solo con una chiave specifica ed è interamente realizzato in carbonio per garantire resistenza e un'indossabilità ottimale.",
+  "$id": "6841723500324900e357",
+  "$sequence": 2,
+  "$createdAt": "2025-06-05T10:32:21.953+00:00",
+  "$updatedAt": "2025-06-05T10:33:47.445+00:00",
+  "$permissions": [],
+  "$databaseId": "6841614a001d274615f5",
+  "$tableId": "68416150002c1447e069"
+},
+        {
+  "url": "/static/prodotti_impossibili/imagine_3",
+  "Descrizione": "Con la nostra nuova zanzariera di Faraday* potrete evitare zanzare e notifiche con grande semplicità, creando uno spazio e un tempo di qualità assieme al vostro partner.\n<br>\n*Una gabbia di Faraday è una rete metallica che non permettere alle onde elettromagnetiche di passare, impedendo qualsiasi connessione di rete.",
+  "$id": "6841633600289652fb23",
+  "$sequence": 1,
+  "$createdAt": "2025-06-05T09:28:22.749+00:00",
+  "$updatedAt": "2025-06-05T10:00:39.531+00:00",
+  "$permissions": [],
+  "$databaseId": "6841614a001d274615f5",
+  "$tableId": "68416150002c1447e069"
+}
+
+        
     ]
