@@ -15,9 +15,7 @@ app.add_middleware(
 
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
-@app.get("/blog")
-def get_blog():
-    return [
+BLOG_POSTS=[
         {
   "pubblicazione": "2025-09-02T10:49:31.833+00:00",
   "titolo": "E' ancora possibile la vita?",
@@ -74,6 +72,10 @@ def get_blog():
 }
         
     ]
+
+@app.get("/blog")
+def get_blog():
+    return BLOG_POSTS
 
 @app.get("/blog/{post_id}")
 def get_blog_post(post_id: int):
