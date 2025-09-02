@@ -75,6 +75,13 @@ def get_blog():
         
     ]
 
+@app.get("/blog/{post_id}")
+def get_blog_post(post_id: int):
+    for post in BLOG_POSTS:
+        if post["id"] == post_id:
+            return post
+    raise HTTPException(status_code=404, detail="Articolo non trovato")
+
 @app.get("/immagini")
 def get_immagini():
     return [
