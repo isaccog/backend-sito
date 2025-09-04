@@ -2,6 +2,12 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
+import os
+from dotenv import load_dotenv
+
+load_dotenv()  # carica da .env se esiste
+
+URL_BASE = os.getenv("URL_BASE", "http://localhost:8000")
 
 app = FastAPI()
 
@@ -85,11 +91,9 @@ def get_blog_post(post_id: str):
             return post
     return {"error": "Articolo non trovato"}  # Niente eccezione
 
-@app.get("/immagini")
-def get_immagini():
-    return [
+PRODOTTI=[
         {
-  "url": "/static/prodotti_impossibili/imagine_5",
+  "url": f"{URL_BASE}/static/prodotti_impossibili/image-2",
   "Descrizione": "Anche nelle nostre società 'libere' milioni di telecamere ci osservano ogni giorno<br>\nCon l'AI è possibile facilmente analizzare volti e risalire a tutti i tuoi dati. <br>\nVari ricercatori hanno immaginato vestiti che confondono l'algoritmo con pattern particolari. Potete trovarne  un esempio <a href=\"https://antiai.biz\" target=\"_blank\">qui</a> o <a href=\" https://makerfairerome.eu/it/cap-able-abiti-anti-sorveglianza-contro-il-riconoscimento-facciale/\" target=\"_blank\">qui</a>.<br>  Noi abbiamo provato a immaginarne un po' meno tripping, anche se probabilmente non funzionante.",
   "id": "6841960a00107c2365c1",
   "sequence": 3,
@@ -100,7 +104,7 @@ def get_immagini():
   "tableId": "68416150002c1447e069"
 }, 
          {
-  "url": "/static/prodotti_impossibili/imagine_4",
+  "url": f"{URL_BASE}/static/prodotti_impossibili/image-3",
   "Descrizione": "Il nostro collare per proteste ti permette di riprendere costantemente quello che sta accadendo, proteggendo te e le persone che ti circondano da comportamenti eccessivi delle forze dell'ordine. <br>\nIl collare è dotato di memoria e funzionalità di trasmissione real time delle immagini a multipli ricevitori via wifi e connessione dati. Fino a 10h di ripresa ininterrotta. <br>\nIl collare è rimovibile solo con una chiave specifica ed è interamente realizzato in carbonio per garantire resistenza e un'indossabilità ottimale.",
   "id": "6841723500324900e357",
   "sequence": 2,
@@ -111,7 +115,7 @@ def get_immagini():
   "tableId": "68416150002c1447e069"
 },
         {
-  "url": "/static/prodotti_impossibili/imagine_3",
+  "url": f"{URL_BASE}/static/prodotti_impossibili/image-4",
   "Descrizione": "Con la nostra nuova zanzariera di Faraday* potrete evitare zanzare e notifiche con grande semplicità, creando uno spazio e un tempo di qualità assieme al vostro partner.\n<br>\n*Una gabbia di Faraday è una rete metallica che non permettere alle onde elettromagnetiche di passare, impedendo qualsiasi connessione di rete.",
   "id": "6841633600289652fb23",
   "sequence": 1,
@@ -124,3 +128,151 @@ def get_immagini():
 
         
     ]
+
+PUBBLICITA=[{
+  "description": "La vera felicità",
+  "url": f"{URL_BASE}/static/pubblicita/torte.jpeg",
+  "id": "6899cddf00311ae54a04",
+  "sequence": 13,
+  "createdAt": "2025-08-11T11:02:56.031+00:00",
+  "updatedAt": "2025-08-11T11:02:56.031+00:00",
+  "permissions": [],
+  "databaseId": "67ce05fd003b3c7b6b37",
+  "tableId": "67ce12a90008bc9b3aaf"
+}
+,
+{
+  "description": "La vera magia ",
+  "url": f"{URL_BASE}/static/prodotti_impossibili/coca.jpeg",
+  "id": "6899cd9b00014ac531ee",
+  "sequence": 12,
+  "createdAt": "2025-08-11T11:01:47.301+00:00",
+  "updatedAt": "2025-08-11T11:01:47.301+00:00",
+  "permissions": [],
+  "databaseId": "67ce05fd003b3c7b6b37",
+  "tableId": "67ce12a90008bc9b3aaf"
+},
+{
+  "description": "Schiscietta anticapitalistica...da comprare per sentirsi ribelli",
+   "url": f"{URL_BASE}/static/prodotti_impossibili/Schiscetta.PNG",
+    "id": "685c053d0024bf59d6de",
+  "sequence": 11,
+  "createdAt": "2025-06-25T14:18:37.688+00:00",
+  "updatedAt": "2025-06-25T14:18:37.688+00:00",
+  "permissions": [],
+  "databaseId": "67ce05fd003b3c7b6b37",
+  "tableId": "67ce12a90008bc9b3aaf"
+},
+{
+  "description": "Rivelate il vostro potenziale",
+    "url": f"{URL_BASE}/static/prodotti_impossibili/occhiali.png",
+"id": "6839c3b60022cad14313",
+  "sequence": 10,
+  "createdAt": "2025-05-30T14:41:58.854+00:00",
+  "updatedAt": "2025-05-30T14:41:58.854+00:00",
+  "permissions": [],
+  "databaseId": "67ce05fd003b3c7b6b37",
+  "tableId": "67ce12a90008bc9b3aaf"
+},
+{
+  "description": "Buy now!!!!!!!!!!!!!!!!!!!!",
+    "url": f"{URL_BASE}/static/prodotti_impossibili/crocere.png",
+"id": "683051da00325372d481",
+  "sequence": 9,
+  "createdAt": "2025-05-23T10:45:46.946+00:00",
+  "updatedAt": "2025-05-23T10:45:46.946+00:00",
+  "permissions": [],
+  "databaseId": "67ce05fd003b3c7b6b37",
+  "tableId": "67ce12a90008bc9b3aaf"
+},
+{
+  "description": "Il vero motivo per cui viaggiare",
+    "url": f"{URL_BASE}/static/prodotti_impossibili/selfie.png",
+"id": "682f8a2f0038c1917855",
+  "sequence": 8,
+  "createdAt": "2025-05-22T20:33:52.000+00:00",
+  "updatedAt": "2025-05-23T10:46:46.062+00:00",
+  "permissions": [],
+  "databaseId": "67ce05fd003b3c7b6b37",
+  "tableId": "67ce12a90008bc9b3aaf"
+},
+{
+  "description": "La vita è un'attrazione (a pagamento) indimenticabile",
+   "url": f"{URL_BASE}/static/prodotti_impossibili/indimenticabile.png",
+ "id": "682f89ca003716a1a1eb",
+  "sequence": 7,
+  "createdAt": "2025-05-22T20:32:10.993+00:00",
+  "updatedAt": "2025-05-22T20:32:10.993+00:00",
+  "permissions": [],
+  "databaseId": "67ce05fd003b3c7b6b37",
+  "tableId": "67ce12a90008bc9b3aaf"
+},
+,
+{
+  "description": "Be social",
+    "url": f"{URL_BASE}/static/prodotti_impossibili/be_social.jpreg",
+"id": "682b0bce003e0187214a",
+  "sequence": 5,
+  "createdAt": "2025-05-19T10:45:35.076+00:00",
+  "updatedAt": "2025-05-19T10:45:35.076+00:00",
+  "permissions": [],
+  "databaseId": "67ce05fd003b3c7b6b37",
+  "tableId": "67ce12a90008bc9b3aaf"
+},
+{
+  "description": "Purezza",
+    "url": f"{URL_BASE}/static/prodotti_impossibili/shell.jpeg",
+"id": "682b0bc3000079cc540c",
+  "sequence": 4,
+  "createdAt": "2025-05-19T10:45:23.072+00:00",
+  "updatedAt": "2025-05-19T10:45:23.072+00:00",
+  "permissions": [],
+  "databaseId": "67ce05fd003b3c7b6b37",
+  "tableId": "67ce12a90008bc9b3aaf"
+},
+{
+  "description": "Felicità in vendita",
+    "url": f"{URL_BASE}/static/prodotti_impossibili/felicita_vestiti.jpeg",
+"Created": null,
+  "id": "682b0bab002f697393fc",
+  "sequence": 3,
+  "createdAt": "2025-05-19T10:44:59.831+00:00",
+  "updatedAt": "2025-05-19T10:44:59.831+00:00",
+  "permissions": [],
+  "databaseId": "67ce05fd003b3c7b6b37",
+  "tableId": "67ce12a90008bc9b3aaf"
+},
+{
+  "description": "Felicità in vendita",
+    "url": f"{URL_BASE}/static/prodotti_impossibili/pizza_felicita.jpeg",
+"Created": null,
+  "id": "682b0bab002f697393fc",
+  "sequence": 3,
+  "createdAt": "2025-05-19T10:44:59.831+00:00",
+  "updatedAt": "2025-05-19T10:44:59.831+00:00",
+  "permissions": [],
+  "databaseId": "67ce05fd003b3c7b6b37",
+  "tableId": "67ce12a90008bc9b3aaf"
+},
+{
+  "description": "Perchè dovete mangiare",
+    "url": f"{URL_BASE}/static/prodotti_impossibili/snack.jpeg",
+"Created": null,
+  "id": "682b0b9b0038c677658d",
+  "sequence": 2,
+  "createdAt": "2025-05-19T10:44:43.990+00:00",
+  "updatedAt": "2025-05-19T10:44:43.990+00:00",
+  "permissions": [],
+  "databaseId": "67ce05fd003b3c7b6b37",
+  "tableId": "67ce12a90008bc9b3aaf"
+}
+
+]
+
+@app.get("/prodotti")
+def get_prodotti():
+    return PRODOTTI
+
+@app.get("/pubblicita")
+def get_prodotti():
+    return PUBBLICITA
