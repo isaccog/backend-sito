@@ -93,7 +93,7 @@ def get_blog_post(post_id: str):
 
 PRODOTTI=[
         {
-  "url": f"{URL_BASE}/static/prodotti_impossibili/image-2",
+  "url": URL_BASE + "/static/prodotti_impossibili/image-2.png",
   "Descrizione": "Anche nelle nostre società 'libere' milioni di telecamere ci osservano ogni giorno<br>\nCon l'AI è possibile facilmente analizzare volti e risalire a tutti i tuoi dati. <br>\nVari ricercatori hanno immaginato vestiti che confondono l'algoritmo con pattern particolari. Potete trovarne  un esempio <a href=\"https://antiai.biz\" target=\"_blank\">qui</a> o <a href=\" https://makerfairerome.eu/it/cap-able-abiti-anti-sorveglianza-contro-il-riconoscimento-facciale/\" target=\"_blank\">qui</a>.<br>  Noi abbiamo provato a immaginarne un po' meno tripping, anche se probabilmente non funzionante.",
   "id": "6841960a00107c2365c1",
   "sequence": 3,
@@ -104,7 +104,7 @@ PRODOTTI=[
   "tableId": "68416150002c1447e069"
 }, 
          {
-  "url": f"{URL_BASE}/static/prodotti_impossibili/image-3",
+  "url": URL_BASE + "/static/prodotti_impossibili/image-3.png",
   "Descrizione": "Il nostro collare per proteste ti permette di riprendere costantemente quello che sta accadendo, proteggendo te e le persone che ti circondano da comportamenti eccessivi delle forze dell'ordine. <br>\nIl collare è dotato di memoria e funzionalità di trasmissione real time delle immagini a multipli ricevitori via wifi e connessione dati. Fino a 10h di ripresa ininterrotta. <br>\nIl collare è rimovibile solo con una chiave specifica ed è interamente realizzato in carbonio per garantire resistenza e un'indossabilità ottimale.",
   "id": "6841723500324900e357",
   "sequence": 2,
@@ -115,7 +115,7 @@ PRODOTTI=[
   "tableId": "68416150002c1447e069"
 },
         {
-  "url": f"{URL_BASE}/static/prodotti_impossibili/image-4",
+  "url": URL_BASE + "/static/prodotti_impossibili/image-4.png",
   "Descrizione": "Con la nostra nuova zanzariera di Faraday* potrete evitare zanzare e notifiche con grande semplicità, creando uno spazio e un tempo di qualità assieme al vostro partner.\n<br>\n*Una gabbia di Faraday è una rete metallica che non permettere alle onde elettromagnetiche di passare, impedendo qualsiasi connessione di rete.",
   "id": "6841633600289652fb23",
   "sequence": 1,
@@ -129,9 +129,10 @@ PRODOTTI=[
         
     ]
 
-PUBBLICITA=[{
+PUBBLICITA=[
+    {
   "description": "La vera felicità",
-  "url": f"{URL_BASE}/static/pubblicita/torte.jpeg",
+  "url": URL_BASE + "/static/pubblicita/torte.jpeg",
   "id": "6899cddf00311ae54a04",
   "sequence": 13,
   "createdAt": "2025-08-11T11:02:56.031+00:00",
@@ -143,7 +144,7 @@ PUBBLICITA=[{
 ,
 {
   "description": "La vera magia ",
-  "url": f"{URL_BASE}/static/prodotti_impossibili/coca.jpeg",
+  "url": URL_BASE + "/static/pubblicita/coca.jpeg",
   "id": "6899cd9b00014ac531ee",
   "sequence": 12,
   "createdAt": "2025-08-11T11:01:47.301+00:00",
@@ -154,7 +155,7 @@ PUBBLICITA=[{
 },
 {
   "description": "Schiscietta anticapitalistica...da comprare per sentirsi ribelli",
-   "url": f"{URL_BASE}/static/prodotti_impossibili/Schiscetta.PNG",
+   "url": URL_BASE + "/static/pubblicita/Schiscietta.PNG",
     "id": "685c053d0024bf59d6de",
   "sequence": 11,
   "createdAt": "2025-06-25T14:18:37.688+00:00",
@@ -165,7 +166,7 @@ PUBBLICITA=[{
 },
 {
   "description": "Rivelate il vostro potenziale",
-    "url": f"{URL_BASE}/static/prodotti_impossibili/occhiali.png",
+    "url": URL_BASE + "/static/pubblicita/occhiali.png",
 "id": "6839c3b60022cad14313",
   "sequence": 10,
   "createdAt": "2025-05-30T14:41:58.854+00:00",
@@ -176,7 +177,7 @@ PUBBLICITA=[{
 },
 {
   "description": "Buy now!!!!!!!!!!!!!!!!!!!!",
-    "url": f"{URL_BASE}/static/prodotti_impossibili/crocere.png",
+    "url": URL_BASE + "/static/pubblicita/crocere.png",
 "id": "683051da00325372d481",
   "sequence": 9,
   "createdAt": "2025-05-23T10:45:46.946+00:00",
@@ -187,7 +188,7 @@ PUBBLICITA=[{
 },
 {
   "description": "Il vero motivo per cui viaggiare",
-    "url": f"{URL_BASE}/static/prodotti_impossibili/selfie.png",
+    "url": URL_BASE + "/static/pubblicita/selfie.png",
 "id": "682f8a2f0038c1917855",
   "sequence": 8,
   "createdAt": "2025-05-22T20:33:52.000+00:00",
@@ -198,8 +199,8 @@ PUBBLICITA=[{
 },
 {
   "description": "La vita è un'attrazione (a pagamento) indimenticabile",
-   "url": f"{URL_BASE}/static/prodotti_impossibili/indimenticabile.png",
- "id": "682f89ca003716a1a1eb",
+   "url": URL_BASE + "/static/pubblicita/indimenticabile.png",
+"id": "682f89ca003716a1a1eb",
   "sequence": 7,
   "createdAt": "2025-05-22T20:32:10.993+00:00",
   "updatedAt": "2025-05-22T20:32:10.993+00:00",
@@ -207,10 +208,9 @@ PUBBLICITA=[{
   "databaseId": "67ce05fd003b3c7b6b37",
   "tableId": "67ce12a90008bc9b3aaf"
 },
-,
 {
   "description": "Be social",
-    "url": f"{URL_BASE}/static/prodotti_impossibili/be_social.jpreg",
+    "url": URL_BASE + "/static/pubblicita/be_social.jpeg",
 "id": "682b0bce003e0187214a",
   "sequence": 5,
   "createdAt": "2025-05-19T10:45:35.076+00:00",
@@ -221,7 +221,7 @@ PUBBLICITA=[{
 },
 {
   "description": "Purezza",
-    "url": f"{URL_BASE}/static/prodotti_impossibili/shell.jpeg",
+    "url": URL_BASE + "/static/pubblicita/shell.jpeg",
 "id": "682b0bc3000079cc540c",
   "sequence": 4,
   "createdAt": "2025-05-19T10:45:23.072+00:00",
@@ -232,8 +232,7 @@ PUBBLICITA=[{
 },
 {
   "description": "Felicità in vendita",
-    "url": f"{URL_BASE}/static/prodotti_impossibili/felicita_vestiti.jpeg",
-"Created": null,
+    "url": URL_BASE + "/static/pubblicita/felicita_vestiti.jpeg",
   "id": "682b0bab002f697393fc",
   "sequence": 3,
   "createdAt": "2025-05-19T10:44:59.831+00:00",
@@ -244,8 +243,7 @@ PUBBLICITA=[{
 },
 {
   "description": "Felicità in vendita",
-    "url": f"{URL_BASE}/static/prodotti_impossibili/pizza_felicita.jpeg",
-"Created": null,
+    "url": URL_BASE + "/static/pubblicita/Pizza_felicita.jpeg",
   "id": "682b0bab002f697393fc",
   "sequence": 3,
   "createdAt": "2025-05-19T10:44:59.831+00:00",
@@ -256,8 +254,7 @@ PUBBLICITA=[{
 },
 {
   "description": "Perchè dovete mangiare",
-    "url": f"{URL_BASE}/static/prodotti_impossibili/snack.jpeg",
-"Created": null,
+    "url": URL_BASE + "/static/pubblicita/snack.jpeg",
   "id": "682b0b9b0038c677658d",
   "sequence": 2,
   "createdAt": "2025-05-19T10:44:43.990+00:00",
@@ -269,6 +266,17 @@ PUBBLICITA=[{
 
 ]
 
+CITAZIONI=[
+    {
+  "cit": "Quando salti la fila all’aeroporto con la tua Amex platino ti senti davvero dalla parte giusta",
+  "description": "Giovane venditore Amex sul frecciarossa",
+  "$createdAt": "2025-05-19T10:37:12.854+00:00",
+  "$updatedAt": "2025-05-19T11:09:02.644+00:00",
+  "$permissions": [],
+  "$databaseId": "67ce05fd003b3c7b6b37",
+  "$tableId": "682b0983000008f244f5"
+}
+]
 @app.get("/prodotti")
 def get_prodotti():
     return PRODOTTI
@@ -276,3 +284,7 @@ def get_prodotti():
 @app.get("/pubblicita")
 def get_prodotti():
     return PUBBLICITA
+
+@app.get("/citazioni")
+def get_prodotti():
+    return CITAZIONI
