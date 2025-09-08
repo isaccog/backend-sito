@@ -1,6 +1,6 @@
 id: 3
 titolo: A Perfect Product
-pubblication: 2025-01-22
+pubblicazione: 2025-01-22
 testo:
 In the irresistible 'The Pervert's Guide to Ideology,' Zizek speaks of Starbucks' brilliant ploy: a small percentage of every coffee goes to charity. I don't know if it's still the case, but the idea is clear. You're not just enjoying a coffee; you're doing good. \nThe message is: "Yes, our cappuccino is more expensive than others, but we give one percent of all our income to some Guatemalan children to keep them healthy. For the water supply for some Sahara farmers, or to save the forests, to enable organic coffee growing, etc."
 And Zizek says:

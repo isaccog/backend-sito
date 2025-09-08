@@ -1,6 +1,6 @@
 id: 2a
 titolo: Most Authentic
-pubblicazine: 2025-06-21
+pubblicazione: 2025-06-21
 testo:
 
 Last Sunday we were looking for a lampredotto sandwich, exasperated by the closure of all the trusted places, despite being with a Florentine friend we had to head to the central ‘’market’’.
