@@ -102,4 +102,3 @@ def get_citazioni(request: Request):
     lang = request.query_params.get("lang", "it")
     return read_json_file("citazioni", lang)
 
-carica_articoli('en')
