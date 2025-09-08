@@ -1,0 +1,51 @@
+{
+  "articoli/autentcissio.txt": {
+    "langs": [
+      "en",
+      "fr"
+    ],
+    "last_modified": 1757171414.528051
+  },
+  "articoli/overtourism.txt": {
+    "langs": [
+      "en",
+      "fr"
+    ],
+    "last_modified": 1757171766.475588
+  },
+  "articoli/risto volos.txt": {
+    "langs": [
+      "en",
+      "fr"
+    ],
+    "last_modified": 1757229207.010453
+  },
+  "articoli/duolingo.txt": {
+    "langs": [
+      "en",
+      "fr"
+    ],
+    "last_modified": 1757171660.953938
+  },
+  "data/prodotti.json": {
+    "langs": [
+      "en",
+      "fr"
+    ],
+    "last_modified": 1757254821.3888772
+  },
+  "data/citazione.json": {
+    "langs": [
+      "en",
+      "fr"
+    ],
+    "last_modified": 1757293434.351807
+  },
+  "data/pubblicita.json": {
+    "langs": [
+      "en",
+      "fr"
+    ],
+    "last_modified": 1757254223.9438345
+  }
+}

@@ -1,17 +1,17 @@
 [
   {
     "url": "{URL_BASE}/static/prodotti_impossibili/image-2.png",
-    "Descrizione": "Anche nelle nostre società 'libere' milioni di telecamere ci osservano ogni giorno<br>\nCon l'AI è possibile facilmente analizzare volti e risalire a tutti i tuoi dati. <br>\nVari ricercatori hanno immaginato vestiti che confondono l'algoritmo con pattern particolari. Potete trovarne  un esempio <a href=\"https://antiai.biz\" target=\"_blank\">qui</a> o <a href=\" https://makerfairerome.eu/it/cap-able-abiti-anti-sorveglianza-contro-il-riconoscimento-facciale/\" target=\"_blank\">qui</a>.<br>  Noi abbiamo provato a immaginarne un po' meno tripping, anche se probabilmente non funzionante.",
+    "Descrizione": "Même dans nos sociétés 'libres', des millions de caméras nous regardent chaque jour<br>\nAvec l'IA, il est possible d'analyser facilement les visages et de retrouver toutes vos données.<br>\nPlusieurs chercheurs ont imaginé des vêtements qui brouillent l'algorithme avec des motifs particuliers. Vous pouvez en trouver un exemple <a href=\"https://antiai.biz\" target=\"_blank\">ici</a> ou <a href=\" https://makerfairerome.eu/it/cap-able-abiti-anti-sorveglianza-contro-il-riconoscimento-facciale/\" target=\"_blank\">ici</a>.<br> Nous avons essayé d'en imaginer un peu moins trippant, même si probablement non fonctionnel.",
     "createdAt": "2025-06-05T13:05:14.349+00:00"
   },
   {
     "url": "{URL_BASE}/static/prodotti_impossibili/image-3.png",
-    "Descrizione": "Il nostro collare per proteste ti permette di riprendere costantemente quello che sta accadendo, proteggendo te e le persone che ti circondano da comportamenti eccessivi delle forze dell'ordine. <br>\nIl collare è dotato di memoria e funzionalità di trasmissione real time delle immagini a multipli ricevitori via wifi e connessione dati. Fino a 10h di ripresa ininterrotta. <br>\nIl collare è rimovibile solo con una chiave specifica ed è interamente realizzato in carbonio per garantire resistenza e un'indossabilità ottimale.",
+    "Descrizione": "Notre collier de protestation vous permet de constamment enregistrer ce qui se passe, en vous protégeant, vous et les personnes qui vous entourent, des comportements excessifs des forces de l'ordre. <br>\nLe collier est équipé de mémoire et de la fonctionnalité de transmission en temps réel des images à plusieurs récepteurs via wifi et connexion de données. Jusqu'à 10h d'enregistrement ininterrompu. <br>\nLe collier ne peut être retiré qu'avec une clé spécifique et est entièrement fabriqué en carbone pour garantir résistance et confort optimal.",
     "createdAt": "2025-06-05T10:32:21.953+00:00"
   },
   {
     "url": "{URL_BASE}/static/prodotti_impossibili/image-4.png",
-    "Descrizione": "Con la nostra nuova zanzariera di Faraday* potrete evitare zanzare e notifiche con grande semplicità, creando uno spazio e un tempo di qualità assieme al vostro partner.\n<br>\n*Una gabbia di Faraday è una rete metallica che non permettere alle onde elettromagnetiche di passare, impedendo qualsiasi connessione di rete.",
+    "Descrizione": "Avec notre nouvelle moustiquaire Faraday*, vous pourrez éviter les moustiques et les notifications avec une grande facilité, créant un espace et un moment de qualité avec votre partenaire.\n<br>\n*Une cage de Faraday est un grillage métallique qui ne permet pas aux ondes électromagnétiques de passer, empêchant toute connexion réseau.",
     "createdAt": "2025-06-05T09:28:22.749+00:00"
   }
 ]

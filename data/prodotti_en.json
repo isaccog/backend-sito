@@ -1,17 +1,17 @@
 [
   {
     "url": "{URL_BASE}/static/prodotti_impossibili/image-2.png",
-    "Descrizione": "Anche nelle nostre società 'libere' milioni di telecamere ci osservano ogni giorno<br>\nCon l'AI è possibile facilmente analizzare volti e risalire a tutti i tuoi dati. <br>\nVari ricercatori hanno immaginato vestiti che confondono l'algoritmo con pattern particolari. Potete trovarne  un esempio <a href=\"https://antiai.biz\" target=\"_blank\">qui</a> o <a href=\" https://makerfairerome.eu/it/cap-able-abiti-anti-sorveglianza-contro-il-riconoscimento-facciale/\" target=\"_blank\">qui</a>.<br>  Noi abbiamo provato a immaginarne un po' meno tripping, anche se probabilmente non funzionante.",
+    "Descrizione": "Even in our 'free' societies, millions of cameras watch us every day<br>\nWith AI, it is easy to analyze faces and track all your data. <br>\nVarious researchers have imagined clothes that confuse the algorithm with special patterns. You can find an example <a href=\"https://antiai.biz\" target=\"_blank\">here</a> or <a href=\"https://makerfairerome.eu/it/cap-able-abiti-anti-sorveglianza-contro-il-riconoscimento-facciale/\" target=\"_blank\">here</a>.<br> We have tried to imagine something a little less tripping, even though it probably won't work.",
     "createdAt": "2025-06-05T13:05:14.349+00:00"
   },
   {
     "url": "{URL_BASE}/static/prodotti_impossibili/image-3.png",
-    "Descrizione": "Il nostro collare per proteste ti permette di riprendere costantemente quello che sta accadendo, proteggendo te e le persone che ti circondano da comportamenti eccessivi delle forze dell'ordine. <br>\nIl collare è dotato di memoria e funzionalità di trasmissione real time delle immagini a multipli ricevitori via wifi e connessione dati. Fino a 10h di ripresa ininterrotta. <br>\nIl collare è rimovibile solo con una chiave specifica ed è interamente realizzato in carbonio per garantire resistenza e un'indossabilità ottimale.",
+    "Descrizione": "Our protest collar allows you to continuously record what is happening, protecting you and the people around you from excessive law enforcement behavior. <br>\nThe collar is equipped with memory and real-time image transmission functionality to multiple receivers via wifi and data connection. Up to 10h of uninterrupted recording. <br>\nThe collar can only be removed with a specific key and is entirely made of carbon to ensure durability and optimal wearability.",
     "createdAt": "2025-06-05T10:32:21.953+00:00"
   },
   {
     "url": "{URL_BASE}/static/prodotti_impossibili/image-4.png",
-    "Descrizione": "Con la nostra nuova zanzariera di Faraday* potrete evitare zanzare e notifiche con grande semplicità, creando uno spazio e un tempo di qualità assieme al vostro partner.\n<br>\n*Una gabbia di Faraday è una rete metallica che non permettere alle onde elettromagnetiche di passare, impedendo qualsiasi connessione di rete.",
+    "Descrizione": "With our new Faraday* mosquito net, you can easily avoid mosquitoes and notifications, creating a quality space and time with your partner.\n<br>\n*A Faraday cage is a metal mesh that does not allow electromagnetic waves to pass, preventing any network connection.",
     "createdAt": "2025-06-05T09:28:22.749+00:00"
   }
 ]

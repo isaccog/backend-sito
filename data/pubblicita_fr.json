@@ -1,6 +1,6 @@
 [
   {
-    "description": "Le vrai bonheur",
+    "description": "La véritable bonheur",
     "url": "{URL_BASE}/static/pubblicita/torte.jpeg",
     "createdAt": "2025-08-11T11:02:56.031+00:00"
   },
@@ -10,7 +10,7 @@
     "createdAt": "2025-08-11T11:01:47.301+00:00"
   },
   {
-    "description": "Bouteille anticapitaliste... à acheter pour se sentir rebelle",
+    "description": "Schiscietta anticapitaliste...à acheter pour se sentir rebelles",
     "url": "{URL_BASE}/static/pubblicita/Schiscietta.PNG",
     "createdAt": "2025-06-25T14:18:37.688+00:00"
   },
