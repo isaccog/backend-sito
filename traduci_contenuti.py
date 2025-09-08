@@ -1,9 +1,10 @@
 import json
+import os
 from pathlib import Path
 from datetime import datetime
 from openai import OpenAI
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 LANGUAGES = {"en": "English", "fr": "French"}
 CACHE_PATH = Path(".translation_cache.json")
