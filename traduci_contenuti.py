@@ -88,8 +88,13 @@ def main():
     cache = load_cache()
     for file in Path("articoli").glob("*.txt"):
         traduci_articolo_txt(file, cache)
-    for file in Path("data").glob("prodotti.json") or file in Path("data").glob("pubblicita.json") or file in Path("data").glob("citazione.json"):
-        traduci_json(file, cache)
+    for file in [
+        Path("data") / "prodotti.json",
+        Path("data") / "pubblicita.json",
+        Path("data") / "citazione.json",
+    ]:
+        if file.exists():
+            traduci_json(file, cache)
     save_cache(cache)
 
 if __name__ == "__main__":
