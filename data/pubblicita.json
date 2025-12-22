@@ -1,4 +1,26 @@
 [
+  {
+    "description": "Cosa sono i capelli",
+    "url": "{URL_BASE}/static/pubblicita/CAPELLI 1.PNG",
+    "createdAt": "2025-12-22T11:02:56.031+00:00"
+  }
+  ,
+  {
+    "description": "Cosa sono i capelli (2)",
+    "url": "{URL_BASE}/static/pubblicita/CAPELLI 2.PNG",
+    "createdAt": "2025-12-22T11:02:56.031+00:00"
+  }
+  ,  {
+    "description": "Cosa sono i capelli (3)",
+    "url": "{URL_BASE}/static/pubblicita/CAPELLI 3.PNG",
+    "createdAt": "2025-12-22T11:02:56.031+00:00"
+  }
+  ,  {
+    "description": "This is life (Qatar business class)",
+    "url": "{URL_BASE}/static/pubblicita/THIS IS LIFE.PNG",
+    "createdAt": "2025-12-22T11:02:56.031+00:00"
+  }
+  ,
 {
   "description": "La vera felicità",
   "url": "{URL_BASE}/static/pubblicita/torte.jpeg",
