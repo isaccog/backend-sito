@@ -1,4 +1,9 @@
-[
+[{
+  "description": "Spedisci i tuoi sogni",
+  "url": "{URL_BASE}/static/pubblicita/brt.jpeg",
+  "createdAt": "2025-12-23T11:02:56.031+00:00"
+}
+,
   {
     "description": "Cosa sono i capelli",
     "url": "{URL_BASE}/static/pubblicita/CAPELLI 1.PNG",
