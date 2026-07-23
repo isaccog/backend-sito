@@ -1,4 +1,22 @@
 [{
+  "description": "La nostalgia, ora anche in menù",
+  "url": "{URL_BASE}/static/pubblicita/cibo nostalgia.jpeg",
+  "createdAt": "2026-07-23T09:35:28.423+00:00"
+}
+,
+{
+  "description": "Più fedele di un partner: il tuo programma punti",
+  "url": "{URL_BASE}/static/pubblicita/sushi.jpeg",
+  "createdAt": "2026-07-23T09:34:35.989+00:00"
+}
+,
+{
+  "description": "L'amicizia vale 200€ (in buoni Amazon)",
+  "url": "{URL_BASE}/static/pubblicita/widiba.jpeg",
+  "createdAt": "2026-07-23T09:34:36.006+00:00"
+}
+,
+{
   "description": "Spedisci i tuoi sogni",
   "url": "{URL_BASE}/static/pubblicita/brt.jpeg",
   "createdAt": "2025-12-23T11:02:56.031+00:00"

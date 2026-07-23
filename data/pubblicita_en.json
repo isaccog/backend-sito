@@ -1,5 +1,45 @@
 [
   {
+    "description": "Nostalgia, now on the menu too",
+    "url": "{URL_BASE}/static/pubblicita/cibo nostalgia.jpeg",
+    "createdAt": "2026-07-23T09:35:28.423+00:00"
+  },
+  {
+    "description": "More loyal than a partner: your points program",
+    "url": "{URL_BASE}/static/pubblicita/sushi.jpeg",
+    "createdAt": "2026-07-23T09:34:35.989+00:00"
+  },
+  {
+    "description": "Friendship is worth €200 (in Amazon vouchers)",
+    "url": "{URL_BASE}/static/pubblicita/widiba.jpeg",
+    "createdAt": "2026-07-23T09:34:36.006+00:00"
+  },
+  {
+    "description": "Ship your dreams",
+    "url": "{URL_BASE}/static/pubblicita/brt.jpeg",
+    "createdAt": "2025-12-23T11:02:56.031+00:00"
+  },
+  {
+    "description": "What is hair",
+    "url": "{URL_BASE}/static/pubblicita/CAPELLI 1.PNG",
+    "createdAt": "2025-12-22T11:02:56.031+00:00"
+  },
+  {
+    "description": "What is hair (2)",
+    "url": "{URL_BASE}/static/pubblicita/CAPELLI 2.PNG",
+    "createdAt": "2025-12-22T11:02:56.031+00:00"
+  },
+  {
+    "description": "What is hair (3)",
+    "url": "{URL_BASE}/static/pubblicita/CAPELLI 3.PNG",
+    "createdAt": "2025-12-22T11:02:56.031+00:00"
+  },
+  {
+    "description": "This is life (Qatar business class)",
+    "url": "{URL_BASE}/static/pubblicita/THIS IS LIFE.PNG",
+    "createdAt": "2025-12-22T11:02:56.031+00:00"
+  },
+  {
     "description": "The true happiness",
     "url": "{URL_BASE}/static/pubblicita/torte.jpeg",
     "createdAt": "2025-08-11T11:02:56.031+00:00"

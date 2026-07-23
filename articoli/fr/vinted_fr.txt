@@ -1,0 +1,16 @@
+id: 5
+titolo: Post-scriptum sur une guerre commerciale
+pubblicazione: 2025-12-12
+testo:
+En France, Vinted est le premier vendeur en ligne de vêtements, et Shein le suit. L'affrontement est amusant : une startup lituanienne qui vend des vêtements d'occasion contre une multinationale chinoise qui génère des vêtements avec l'IA, les produit en masse et en jette des millions s'ils ne sont pas récompensés par l'algorithme.
+Une lecture hâtive oppose la réutilisation au gaspillage. On s'aperçoit ensuite que la faim consumériste sur Vinted n'est certainement pas moindre, et qu'il faudra voir combien pollue l'envoi de tous ces colis de particulier à particulier.
+Cela ne suffit cependant pas à éclairer l'affaire. Le plus intéressant est de voir la différence entre le vieux capitalisme industriel (paradoxalement : celui de la nouvelle puissance chinoise, qui peine en effet à le devenir vraiment) et le capitalisme de services désormais prédominant dans la vieille Europe.
+Les techniques sophistiquées de Shein pour tout optimiser sont en réalité plutôt maladroites : elles augmentent la vitesse de production, optimisent les coûts, mais ne changent pas la direction.
+
+Le succès retentissant de Vinted est de libérer totalement le secteur de l'habillement de sa substance physique. Ce sont les consommateurs qui deviennent vendeurs et producteurs. L'entreprise s'occupe de deux choses, l'une centrale, l'autre annexe.
+L'annexe consiste à rendre le processus facile : expédition, réception, etc. La centrale consiste à construire le désir, à créer l'espace pour faire vivre la consommation. Et à en prélever une fraction en l'appelant protection achat.
+Vinted est une compagnie d'assurance sur ta capacité continue à régénérer le plaisir de l'achat et la satisfaction de la vente.
+L'activité annexe sert à vivre sans problème celle du centre, le plaisir pornographique du scrolling et de l'achat.
+
+Au final, Vinted ne devient pas un sujet de ces transactions, mais leur fondement. Si Shein cherche à éviter les responsabilités liées à ses actions (gaspillage, pollution, exploitation, etc.), Vinted réalise le tour inverse : il n'a pas à les éviter parce qu'il n'en a aucune.
+La responsabilité, de l'hyper production, de l'hyper consommation, de la qualité, est la tienne.

@@ -27,6 +27,20 @@
     ],
     "last_modified": 1757171660.953938
   },
+  "articoli/vinted.txt": {
+    "langs": [
+      "en",
+      "fr"
+    ],
+    "last_modified": 1765548885.1454885
+  },
+  "articoli/tre desideri.txt": {
+    "langs": [
+      "en",
+      "fr"
+    ],
+    "last_modified": 1784797917.6371527
+  },
   "data/prodotti.json": {
     "langs": [
       "en",
@@ -39,13 +53,13 @@
       "en",
       "fr"
     ],
-    "last_modified": 1757293434.351807
+    "last_modified": 1757296554.9286256
   },
   "data/pubblicita.json": {
     "langs": [
       "en",
       "fr"
     ],
-    "last_modified": 1757254223.9438345
+    "last_modified": 1784799442.9335992
   }
 }
