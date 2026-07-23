@@ -16,7 +16,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
-    allow_credentials=True,
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -29,17 +29,24 @@ ARTICOLI_PATH = Path("articoli")
 # Cartella dati
 DATA_DIR = Path.cwd() / "data"
 
+LINGUE_SUPPORTATE = {"it", "en", "fr"}
+
+def valida_lang(lang: str) -> str:
+    if lang not in LINGUE_SUPPORTATE:
+        raise HTTPException(status_code=400, detail=f"Lingua '{lang}' non supportata")
+    return lang
+
 def read_json_file(name: str, lang: str = "it"):
     # Determina il nome file: prodotti_en.txt, prodotti_fr.txt, oppure prodotti.txt
     localized = f"{name}_{lang}.json" if lang != "it" else f"{name}.json"
     fallback = f"{name}.json"
-    
+
     path = DATA_DIR / localized
     if not path.exists():
         path = DATA_DIR / fallback
         if not path.exists():
-            return {"error": f"File {localized} o {fallback} non trovato"}
-    
+            raise HTTPException(status_code=404, detail=f"File {localized} o {fallback} non trovato")
+
     text = path.read_text(encoding="utf-8").replace("{URL_BASE}", URL_BASE)
     return json.loads(text)
 
@@ -72,14 +79,18 @@ def carica_articoli(lang="it"):
 
     return [parse_articolo_txt(p) for p in lang_path.glob("*.txt")]
 
+@app.get("/health")
+def health():
+    return {"status": "ok"}
+
 @app.get("/blog")
 def get_blog(request: Request):
-    lang = request.query_params.get("lang", "it")
+    lang = valida_lang(request.query_params.get("lang", "it"))
     return carica_articoli(lang)
 
 @app.get("/blog/{post_id}")
 def get_blog_post(post_id: str, request: Request):
-    lang = request.query_params.get("lang", "it")
+    lang = valida_lang(request.query_params.get("lang", "it"))
     posts = carica_articoli(lang)
     for post in posts:
         if post["id"] == post_id:
@@ -89,16 +100,16 @@ def get_blog_post(post_id: str, request: Request):
 # Endpoint API
 @app.get("/prodotti")
 def get_prodotti(request: Request):
-    lang = request.query_params.get("lang", "it")
+    lang = valida_lang(request.query_params.get("lang", "it"))
     return read_json_file("prodotti", lang)
 
 @app.get("/pubblicita")
 def get_pubblicita(request: Request):
-    lang = request.query_params.get("lang", "it")
+    lang = valida_lang(request.query_params.get("lang", "it"))
     return read_json_file("pubblicita", lang)
 
 @app.get("/citazioni")
 def get_citazioni(request: Request):
-    lang = request.query_params.get("lang", "it")
-    return read_json_file("citazioni", lang)
+    lang = valida_lang(request.query_params.get("lang", "it"))
+    return read_json_file("citazione", lang)
 
