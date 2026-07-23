@@ -1,7 +1,6 @@
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
-import os
 import json
 from dotenv import load_dotenv
 from pathlib import Path
@@ -9,7 +8,8 @@ from pathlib import Path
 
 load_dotenv()  # carica da .env se esiste
 
-URL_BASE = os.getenv("URL_BASE", "http://localhost:8000")
+# Temporaneo: hardcoded finché non sistemiamo la variabile d'ambiente su Railway
+URL_BASE = "https://backend-sito-production-5d93.up.railway.app"
 
 app = FastAPI()
 
